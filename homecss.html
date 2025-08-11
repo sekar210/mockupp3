@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athiya Sekar Hasna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style> <!--ini pakai selector-->
+h3{
+    color: black;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: overline;
+}
+h2{
+    color: blueviolet;
+    font-style: oblique;
+    font-family: 'Gill Sans';
+    text-decoration: underline;
+    line-height: 50px;
+}
+h4{
+    color: indigo;
+    font-style: italic;
+    font-family: Verdana;
+    text-decoration: solid ;
+}
+</style>
+<body><!--ini juga-->
+ <h3>saya suka memasak</h3>  
+ <h2> BELAJAR CSS</h2>
+ <h4>
+    <h4>Jawa Barat (diakronimkan sebagai Jabar) adalah provinsi yang terletak di Pulau Jawa, Indonesia. Provinsi ini beribu kota di Kota Bandung. Jawa Barat berbatasan dengan Banten dan DKI Jakarta di sebelah barat, Laut Jawa di utara, Jawa Tengah di timur, dan Samudra Hindia di sebelah selatan. Bersama dengan Banten, Jawa Barat disebut sebagai Tatar Sunda atau Pasundan karena merupakan kampung asli masyarakat Sunda, suku terbesar kedua di Indonesia.</h4>
+</h4>
+</body>
+</html>
+<body> <!--ini inline css,tidak memperdulikan selector. lngsung memilih saja msuk dalam tag-->
+    <h1 style="color: palevioletred; font-family: monospace; text-decoration: underline;">saya mempunyai keponakan bernama aqila elshanum khayra</h1>
+    <h1 style="color: skyblue; font-family:Georgia; text-decoration: line-through;">saya mempunyai kucing</h1>
+</body>
+<body> <!--ini internal css,pakai selector,pakai id -->
+    <style>
+#blaba{
+color: maroon;
+text-decoration: overline;
+font-style: italic;
+font-family: serif;
+}
+#belajar{
+color: chartreuse;
+font-style: inherit;
+font-family: monospace;
+}
+#minum{
+    color: blueviolet;
+    font-style: oblique;
+    text-decoration: line-through;
+}
+#mie{
+    font-family: serif;
+    font-size: 40px;
+    color: lightsalmon;
+    background:pink;
+    display: inline;
+}
+#es{
+    font-family: Verdana;
+    font-size: 40px;
+    color: yellow;
+    background:green;
+    margin:20px;
+    border: 5px solid purple;
+    padding: 20px;
+    background-image:url(foto__contohfile.jpg.jfif);height: 90px;
+}
+    </style>
+<body>
+    <h1 id="blaba">blablabli</h1>
+    <h2 id="belajar"> sekarang sya lagi belajar css</h2>
+    <h2 id="minum">saya sekarang lagi minum</h2>
+    <h2 id="mie">mie ayam gorontalo</h2>
+    <h2 id="es"> es kepal milo</h2>
+    <h2 id="es"> es kepal milo</h2>
+</body>
+<body> <!--ini eksternal css, msih pakai id, pakai file style.css-->
+    <h1 id="dimsum"> saya suka dimsum mentai</h1>
+</body>
+<head> <!--ini internal css pakai link berwarna,jika di pencet ganti warna-->
+    <link rel="stylesheet" href="style.css">
+     <style type="text/css">
+     .hello a:link{
+        font-family: fantasy;
+        font-size: 18px;
+        color: red;
+     }
+
+     </style>
+     
+     </head>
+<body> 
+
+    <u class="hello">
+    <li><a href="https://ibox.co.id/">ketuk disini</a></li>
+
+    </u>
+</body>
+<br>
+<br>
+<head> <!--ini box model-->
+<title>box model</title>
+</head>
+<style>
+.diakronim{
+    background-color: rgb(171, 103, 79);
+    width: 800px;
+    height: 400px;
+    border: 10px blue;
+    padding: 15px;
+    margin: 89px;
+
+}
+.timur{
+    background-color: indigo;
+    height: 200px;
+    border: 500px yellow;
+    padding: 10px;
+    margin: 89px;
+}
+</style>
+</head>
+<body> 
+    <2>box model</h2>
+    <p class="diakronim">jawa Barat (diakronimkan sebagai Jabar) adalah provinsi yang terletak di Pulau Jawa, Indonesia. Provinsi ini beribu kota di Kota Bandung. Jawa Barat berbatasan dengan Banten dan DKI Jakarta di sebelah barat, Laut Jawa di utara, Jawa Tengah di timur, dan Samudra Hindia di sebelah selatan. Bersama dengan Banten, Jawa Barat disebut sebagai Tatar Sunda atau Pasundan karena merupakan kampung asli masyarakat Sunda, suku terbesar kedua di Indonesia.</p>
+    <p class="timur">jawa Timur adalah sebuah provinsi yang terletak di ujung timur Pulau Jawa, Indonesia. Ibu kotanya adalah Surabaya, yang juga merupakan kota terbesar kedua di Indonesia. Selain daratan Jawa Timur, provinsi ini juga mencakup Pulau Madura dan beberapa pulau kecil lainnya. </p>
+
+<head><!--ini block level elemen-->
+    <title> block level element</title>
+    <style type="text/css">
+    .hindia{
+        background-color:palevioletred;
+        width: 500px;
+        height: 415px;
+        padding: right;
+     }  
+     </style>
+     </head>
+    <head>
+        <title>css float</title>
+    <style>
+    
+      .kebab{
+        background-color: darkcyan;
+        width: 50%;
+        height: 200px;
+        float: left;
+      }
+      .antimo{
+        background-color: greenyellow;
+        width: 50%;
+        height: 200px;
+        float: right;
+      }
+     .susu{
+        background-color: blueviolet;
+        width: 100%;
+        height: 185px;
+        clear: both;
+     }
+     </style>
+     </head>
+    
+    
+</head>
+<body>
+    <h1>contoh block level element</h1>
+    <div class="hindia" > adalah sebuah provinsi yang terletak di ujung timur Pulau Jawa, Indonesia. Ibu kotanya adalah Surabaya, yang juga merupakan kota terbesar kedua di Indonesia. Selain daratan Jawa Timur, provinsi ini juga mencakup Pulau Madura dan beberapa pulau kecil lainnya. 
+    </div>
+    </body>
+    <br>
+    <br>
+    <br>
+    <body>
+        <h5>CSS FLOAT</h5>
+    <div class="kebab">float left</div>
+    <div class=" antimo">float right</div>
+    <div class="susu">bukan float</div>
+</body>
+</html>
+<br>
+<br>
+<br>
+<head>
+    <h5>LAYOUT WEBSITE 1</h5>
+    <link rel="stylesheet" href="layoutempat.css" type="text/css">
+    </head>
+    <style>
+body{
+    font-family: Arial;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+.header{
+    height: 100px;
+    background-color: cornflowerblue;
+}
+.navigation{height: 50px;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.main{
+    height: 400px;
+    background-color: cornflowerblue;
+}
+.footer{
+    height: 70px;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+.content{
+    height: 40px;
+    margin: auto;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">header</div>
+    <div class="navigation">navigation bar</div>
+    <div class="main"> main content</div>
+    <div class="content">content</div>
+    <div class="clear"></div>
+    <div class="footer">footer</div>
+</body>
+<br>
+<br>
+<head>
+    <style>
+        .kotak{
+           display: flex; 
+           justify-content: center;
+        }
+        .satu{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+        .dua{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+        .tiga{
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+        }
+        .empat{
+            height: 200px;
+            width: 200px;
+            background-color: chartreuse;
+        }
+        .satu,.dua,.tiga,.empat{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak">
+        <div class="satu"></div>
+        <div class="dua"></div>
+        <div class="tiga"></div>
+        <div class="empat"></div>
+    </div> 
+</body>
+<br>
+<br>
+<head>
+    <h5>LAYOUT WEBSITE 2</h5>
+    <style>
+     body{
+        font-family: serif;
+        font-size: 36px;
+        color: black;
+        text-align: center;
+     }
+     .ader{
+        height: 100px;
+        background-color: coral;
+     }
+     .ation{
+        height: 50px;
+        background-color: coral;
+        margin-top: 10px;
+        margin-bottom: 10px;
+     }
+     .in{
+        height: 400px;
+        width: 74%;
+        float: left;
+        margin-right: 10px;
+        background-color: coral;
+     }
+     .tent{
+        width: 25%;
+        height: 400px;
+        background-color: coral;
+        float: right;
+        
+     }
+     .ear{
+        clear: both;
+     }
+     .oter{
+        height: 70px;
+        background-color: coral;
+        margin-top: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="ader">header</div>
+    <div class="ation">navigation bar</div>
+    <div class="in"> main content </div>
+    <div class="tent">content</div>
+    <div class="ear"></div>
+    <div class="oter">footer</div>
+</body>
+<br>
+<br>
+<head>
+    <h5>LAYOUT WEBSITE 3</h5>
+    <style>
+ body{
+     text-align: center;
+     font-family: serif;
+     color: black;
+ }
+ .zap{
+    height: 80px;
+    width: 100%;
+    background-color: darkgreen;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+ .zip{
+     height: 50px;
+     width: 65%;
+     background-color: darkgreen;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-right: 2%;
+ }
+ .zup{
+    width: 15%;
+    height: 150px;
+    background-color: darkgreen;
+    margin-bottom: 1px;
+ }
+ .zep{
+    width: 15%;
+    height: 150px;
+    background-color: darkgreen;
+ }
+ .zop{
+    width: 65%;
+    height: 300px;
+    background-color: darkgreen;
+    margin-right: 2%;
+    margin-bottom: 10px;
+ }
+ .poz{
+    height: 60px;
+    width: 100%;
+    background-color: darkgreen;
+    margin-top: 10px;
+    margin-bottom: 2px;
+ }
+ .pzo{
+    width: 15%;
+    height: 130px;
+    margin-bottom: 10px;
+ }
+ 
+    </style>
+</head>
+<body>
+    <div class="zap">header</div>
+    <div class="zip">navigation</div>
+    <div class="zup">content 1</div>
+    <div class="zep">content 2</div>
+    <div class="zop">main content</div>
+    <div class="poz">footer</div>
+    <div class="pzo">content 3</div>
+</body>
